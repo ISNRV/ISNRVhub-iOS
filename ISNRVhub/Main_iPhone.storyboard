@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="8YX-ce-x5E">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8YX-ce-x5E">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -28,16 +29,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-428.80000000000001" y="50.374812593703155"/>
+            <point key="canvasLocation" x="-686.08000000000004" y="45.314673997334175"/>
         </scene>
         <!--AdminISNRV-->
         <scene sceneID="SCH-XJ-pT8">
             <objects>
                 <viewController id="r9y-0e-qA0" customClass="AdminISNRV" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="S1O-iS-3b2"/>
-                        <viewControllerLayoutGuide type="bottom" id="qIf-3a-TMd"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleAspectFit" id="GVq-x5-86G">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -60,6 +57,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="QdR-DJ-K9z"/>
                     </view>
                     <navigationItem key="navigationItem" id="QdK-Zy-Bnq">
                         <barButtonItem key="leftBarButtonItem" image="menu.png" id="w54-3S-uor">
@@ -73,20 +71,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EZ2-17-qyW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1643.2" y="-1000.2998500749626"/>
+            <point key="canvasLocation" x="2629.1200000000003" y="-899.81995508992145"/>
         </scene>
         <!--Select a Status-->
         <scene sceneID="utv-mB-KWp">
             <objects>
                 <viewController id="z1W-7d-8qO" customClass="StatusViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="kJo-k0-xDq"/>
-                        <viewControllerLayoutGuide type="bottom" id="i71-aN-f0o"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TcA-1L-Lz3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="g1d-B3-wdq"/>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Select a Status" id="EyM-gW-p16">
@@ -101,16 +96,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x8o-mD-3I4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2524.8000000000002" y="-1000.2998500749626"/>
+            <point key="canvasLocation" x="4039.6800000000003" y="-899.81995508992145"/>
         </scene>
         <!--ABOUT US-->
         <scene sceneID="sKG-aa-Awm">
             <objects>
                 <viewController id="U2a-gW-q06" customClass="AboutISNRV" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="h5w-Jy-g1P"/>
-                        <viewControllerLayoutGuide type="bottom" id="1Im-on-VEN"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xHL-tZ-Vcq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -122,6 +113,7 @@
                             </webView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="4r3-xy-rEW"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="ABOUT US" image="second" id="1UH-Tf-76l"/>
                     <toolbarItems/>
@@ -138,7 +130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GrR-WA-7PO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2374.4000000000001" y="-414.69265367316348"/>
+            <point key="canvasLocation" x="3799.0400000000004" y="-373.03686987091169"/>
         </scene>
         <!--Sidebar View Controller-->
         <scene sceneID="arH-Cv-tfv">
@@ -235,20 +227,17 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CxA-Lz-Tay" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1396.8" y="-15.292353823088456"/>
+            <point key="canvasLocation" x="2234.8800000000001" y="-13.756240320619302"/>
         </scene>
         <!--Parking Status-->
         <scene sceneID="V5x-uA-m4B">
             <objects>
                 <viewController id="mba-2U-J7W" customClass="SWRevealViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="psP-gj-nnM"/>
-                        <viewControllerLayoutGuide type="bottom" id="xzO-zg-IIG"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qAj-yf-fKS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bKL-Ov-Wmu"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Parking Status" image="second" id="hXM-nT-eJw"/>
                     <connections>
@@ -258,7 +247,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uMp-0a-PEd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="443.19999999999999" y="429.08545727136436"/>
+            <point key="canvasLocation" x="709.12" y="385.98391958443574"/>
         </scene>
         <!--Item-->
         <scene sceneID="vh1-aQ-u7s">
@@ -284,16 +273,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="07Y-HJ-2on" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1396.8" y="655.77211394302856"/>
+            <point key="canvasLocation" x="2234.8800000000001" y="589.89995257243959"/>
         </scene>
         <!--Parking-->
         <scene sceneID="IR0-ED-nga">
             <objects>
                 <viewController id="d8A-91-RHo" customClass="ParkingStatus" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dSQ-SM-A6S"/>
-                        <viewControllerLayoutGuide type="bottom" id="6sz-Pd-uO3"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fz4-7x-I0S">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -315,6 +300,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="3ps-n2-Jgm"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Parking" image="second" id="H65-1b-I5c"/>
                     <navigationItem key="navigationItem" id="AJm-Ar-PiJ">
@@ -329,7 +315,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fdc-Q2-HWl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2374.4000000000001" y="137.6311844077961"/>
+            <point key="canvasLocation" x="3799.0400000000004" y="123.80616288557371"/>
         </scene>
         <!--DAILY PRAYERS-->
         <scene sceneID="uYE-Tq-uip">
@@ -337,19 +323,19 @@
                 <tableViewController title="DAILY PRAYERS" id="SsR-n4-iAl" customClass="PrayerTimesTable" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleAspectFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" allowsSelection="NO" rowHeight="60" sectionHeaderHeight="10" sectionFooterHeight="10" id="SwJ-Xw-B8o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="separatorColor" red="0.69437579719387754" green="0.0" blue="0.3544788269324104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <inset key="separatorInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                         <color key="sectionIndexColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="0.60000002384185791" green="0.60000002384185791" blue="0.60000002384185791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="sectionIndexTrackingBackgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
                             <tableViewSection headerTitle="Daily Prayers" footerTitle="" id="3ff-8p-l0u">
                                 <cells>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" id="t5V-Xm-oSz">
                                         <rect key="frame" x="0.0" y="55.5" width="375" height="60"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="t5V-Xm-oSz" id="hJS-Ne-7nn">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
@@ -558,7 +544,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ny0-UH-MKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="622.39999999999998" y="-590.10494752623697"/>
+            <point key="canvasLocation" x="995.84000000000003" y="-530.82903825448614"/>
         </scene>
     </scenes>
     <resources>

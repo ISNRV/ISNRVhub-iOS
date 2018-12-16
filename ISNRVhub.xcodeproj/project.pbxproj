@@ -85,6 +85,10 @@
 		E20CF47D21BBF4EC0031A875 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */; };
 		E20CF47E21BBF4EC0031A875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6349521818FDC2000054C512 /* InfoPlist.strings */; };
 		E20CF48621BBF9000031A875 /* ISNRVhub-ipad-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */; };
+		E22B7E7321C69FA7005E2088 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E22B7E6F21C69FA7005E2088 /* assets */; };
+		E22B7E7521C69FA7005E2088 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22B7E7021C69FA7005E2088 /* LaunchScreen.xib */; };
+		E22B7E7721C69FA7005E2088 /* Bladefile in Resources */ = {isa = PBXBuildFile; fileRef = E22B7E7121C69FA7005E2088 /* Bladefile */; };
+		E22B7E7921C69FA7005E2088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22B7E7221C69FA7005E2088 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +157,10 @@
 		E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		E20CF48221BBF4EC0031A875 /* ISNRVhub-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISNRVhub-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ISNRVhub-ipad-Info.plist"; sourceTree = "<group>"; };
+		E22B7E6F21C69FA7005E2088 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = Shared/assets; sourceTree = "<group>"; };
+		E22B7E7021C69FA7005E2088 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = Shared/LaunchScreen.xib; sourceTree = "<group>"; };
+		E22B7E7121C69FA7005E2088 /* Bladefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Bladefile; path = Shared/Bladefile; sourceTree = "<group>"; };
+		E22B7E7221C69FA7005E2088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Shared/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +263,7 @@
 		6349520318FDC1FF0054C512 = {
 			isa = PBXGroup;
 			children = (
+				E22B7E6E21C69F88005E2088 /* Shared */,
 				E20CF48321BBF4EC0031A875 /* Resources-iPad */,
 				6332202F191113BA00A6C302 /* SWRevealViewController */,
 				63408EC619048B4300319726 /* Model */,
@@ -352,6 +361,17 @@
 			children = (
 			);
 			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		E22B7E6E21C69F88005E2088 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E22B7E6F21C69FA7005E2088 /* assets */,
+				E22B7E7121C69FA7005E2088 /* Bladefile */,
+				E22B7E7221C69FA7005E2088 /* Images.xcassets */,
+				E22B7E7021C69FA7005E2088 /* LaunchScreen.xib */,
+			);
+			name = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -460,7 +480,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20CF45621BBF19C0031A875 /* Main_iPad.storyboard in Resources */,
+				E22B7E7921C69FA7005E2088 /* Images.xcassets in Resources */,
 				63C1A0CF1AF655DA005B0A4A /* PrayerTimes.plist in Resources */,
+				E22B7E7721C69FA7005E2088 /* Bladefile in Resources */,
+				E22B7E7321C69FA7005E2088 /* assets in Resources */,
 				633220441911C7A200A6C302 /* news.png in Resources */,
 				633220451911C7A200A6C302 /* photo.png in Resources */,
 				633220421911C7A200A6C302 /* menu.png in Resources */,
@@ -474,6 +497,7 @@
 				630E3EA919169458001DA1C9 /* greenButtonHighlight@2x.png in Resources */,
 				6332202E1911113200A6C302 /* ISNRVhubIcon.png in Resources */,
 				E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */,
+				E22B7E7521C69FA7005E2088 /* LaunchScreen.xib in Resources */,
 				6349521A18FDC2000054C512 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
