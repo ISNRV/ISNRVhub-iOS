@@ -17,8 +17,6 @@
 		6332201F1908B76300A6C302 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332201E1908B76300A6C302 /* Security.framework */; };
 		633220211908B77700A6C302 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633220201908B77700A6C302 /* SystemConfiguration.framework */; };
 		6332202E1911113200A6C302 /* ISNRVhubIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332202D1911113200A6C302 /* ISNRVhubIcon.png */; };
-		63322032191113D800A6C302 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63322031191113D800A6C302 /* SWRevealViewController.m */; };
-		633220351911143100A6C302 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633220341911143100A6C302 /* SidebarViewController.m */; };
 		633220421911C7A200A6C302 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 633220391911C7A200A6C302 /* menu.png */; };
 		633220431911C7A200A6C302 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203A1911C7A200A6C302 /* menu@2x.png */; };
 		633220441911C7A200A6C302 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203B1911C7A200A6C302 /* news.png */; };
@@ -32,7 +30,6 @@
 		63408EC51904859A00319726 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EC21904859A00319726 /* XPathQuery.m */; };
 		63408EC919048BBA00319726 /* ISNRV.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EC819048BBA00319726 /* ISNRV.m */; };
 		63408ECE19048E6B00319726 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63408ECD19048E6B00319726 /* libxml2.dylib */; };
-		63408ED119049F4800319726 /* AboutISNRV.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408ED019049F4800319726 /* AboutISNRV.m */; };
 		6349521018FDC1FF0054C512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349520F18FDC1FF0054C512 /* Foundation.framework */; };
 		6349521218FDC1FF0054C512 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349521118FDC1FF0054C512 /* CoreGraphics.framework */; };
 		6349521418FDC1FF0054C512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349521318FDC1FF0054C512 /* UIKit.framework */; };
@@ -40,11 +37,6 @@
 		6349521C18FDC2000054C512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521B18FDC2000054C512 /* main.m */; };
 		6349522018FDC2000054C512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521F18FDC2000054C512 /* AppDelegate.m */; };
 		6349522E18FDC2000054C512 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349522D18FDC2000054C512 /* Images.xcassets */; };
-		6349523518FDC2000054C512 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349523418FDC2000054C512 /* XCTest.framework */; };
-		6349523618FDC2000054C512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349520F18FDC1FF0054C512 /* Foundation.framework */; };
-		6349523718FDC2000054C512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349521318FDC1FF0054C512 /* UIKit.framework */; };
-		6349523F18FDC2000054C512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6349523D18FDC2000054C512 /* InfoPlist.strings */; };
-		6349524118FDC2000054C512 /* ISNRVhubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349524018FDC2000054C512 /* ISNRVhubTests.m */; };
 		63C1A0CF1AF655DA005B0A4A /* PrayerTimes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */; };
 		E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */; };
 		E20CF45621BBF19C0031A875 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */; };
@@ -54,10 +46,7 @@
 		E20CF45C21BBF4EC0031A875 /* ISNRV.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EC819048BBA00319726 /* ISNRV.m */; };
 		E20CF45D21BBF4EC0031A875 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EBE1904859A00319726 /* TFHpple.m */; };
 		E20CF45E21BBF4EC0031A875 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EC21904859A00319726 /* XPathQuery.m */; };
-		E20CF45F21BBF4EC0031A875 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63322031191113D800A6C302 /* SWRevealViewController.m */; };
-		E20CF46021BBF4EC0031A875 /* AboutISNRV.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408ED019049F4800319726 /* AboutISNRV.m */; };
 		E20CF46121BBF4EC0031A875 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EC01904859A00319726 /* TFHppleElement.m */; };
-		E20CF46221BBF4EC0031A875 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633220341911143100A6C302 /* SidebarViewController.m */; };
 		E20CF46421BBF4EC0031A875 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63322050191319AC00A6C302 /* Social.framework */; };
 		E20CF46521BBF4EC0031A875 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332204E191319A500A6C302 /* Accounts.framework */; };
 		E20CF46621BBF4EC0031A875 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633220201908B77700A6C302 /* SystemConfiguration.framework */; };
@@ -85,21 +74,8 @@
 		E20CF47D21BBF4EC0031A875 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */; };
 		E20CF47E21BBF4EC0031A875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6349521818FDC2000054C512 /* InfoPlist.strings */; };
 		E20CF48621BBF9000031A875 /* ISNRVhub-ipad-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */; };
-		E22B7E7321C69FA7005E2088 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = E22B7E6F21C69FA7005E2088 /* assets */; };
 		E22B7E7521C69FA7005E2088 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22B7E7021C69FA7005E2088 /* LaunchScreen.xib */; };
-		E22B7E7721C69FA7005E2088 /* Bladefile in Resources */ = {isa = PBXBuildFile; fileRef = E22B7E7121C69FA7005E2088 /* Bladefile */; };
-		E22B7E7921C69FA7005E2088 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22B7E7221C69FA7005E2088 /* Images.xcassets */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6349523818FDC2000054C512 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6349520418FDC1FF0054C512 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6349520B18FDC1FF0054C512;
-			remoteInfo = ISNRVhub;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		630E3EA219169458001DA1C9 /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
@@ -112,10 +88,6 @@
 		6332201E1908B76300A6C302 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		633220201908B77700A6C302 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6332202D1911113200A6C302 /* ISNRVhubIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ISNRVhubIcon.png; sourceTree = "<group>"; };
-		63322030191113D800A6C302 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		63322031191113D800A6C302 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		633220331911143100A6C302 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
-		633220341911143100A6C302 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
 		633220391911C7A200A6C302 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		6332203A1911C7A200A6C302 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
 		6332203B1911C7A200A6C302 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
@@ -134,8 +106,6 @@
 		63408EC719048BBA00319726 /* ISNRV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISNRV.h; path = ISNRVhub/ISNRV.h; sourceTree = "<group>"; };
 		63408EC819048BBA00319726 /* ISNRV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISNRV.m; path = ISNRVhub/ISNRV.m; sourceTree = "<group>"; };
 		63408ECD19048E6B00319726 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		63408ECF19049F4800319726 /* AboutISNRV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutISNRV.h; sourceTree = "<group>"; };
-		63408ED019049F4800319726 /* AboutISNRV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutISNRV.m; sourceTree = "<group>"; };
 		6349520C18FDC1FF0054C512 /* ISNRVhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISNRVhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6349520F18FDC1FF0054C512 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6349521118FDC1FF0054C512 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -147,20 +117,13 @@
 		6349521E18FDC2000054C512 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6349521F18FDC2000054C512 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6349522D18FDC2000054C512 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6349523318FDC2000054C512 /* ISNRVhubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISNRVhubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6349523418FDC2000054C512 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6349523C18FDC2000054C512 /* ISNRVhubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ISNRVhubTests-Info.plist"; sourceTree = "<group>"; };
-		6349523E18FDC2000054C512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6349524018FDC2000054C512 /* ISNRVhubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISNRVhubTests.m; sourceTree = "<group>"; };
 		63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PrayerTimes.plist; sourceTree = "<group>"; };
 		E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 		E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		E20CF48221BBF4EC0031A875 /* ISNRVhub-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISNRVhub-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ISNRVhub-ipad-Info.plist"; sourceTree = "<group>"; };
-		E22B7E6F21C69FA7005E2088 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = Shared/assets; sourceTree = "<group>"; };
-		E22B7E7021C69FA7005E2088 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = Shared/LaunchScreen.xib; sourceTree = "<group>"; };
-		E22B7E7121C69FA7005E2088 /* Bladefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Bladefile; path = Shared/Bladefile; sourceTree = "<group>"; };
-		E22B7E7221C69FA7005E2088 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Shared/Images.xcassets; sourceTree = "<group>"; };
+		E22B7E7021C69FA7005E2088 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,16 +142,6 @@
 				6349521218FDC1FF0054C512 /* CoreGraphics.framework in Frameworks */,
 				6349521418FDC1FF0054C512 /* UIKit.framework in Frameworks */,
 				6349521018FDC1FF0054C512 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6349523018FDC2000054C512 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6349523518FDC2000054C512 /* XCTest.framework in Frameworks */,
-				6349523718FDC2000054C512 /* UIKit.framework in Frameworks */,
-				6349523618FDC2000054C512 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,15 +166,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6332202F191113BA00A6C302 /* SWRevealViewController */ = {
-			isa = PBXGroup;
-			children = (
-				63322030191113D800A6C302 /* SWRevealViewController.h */,
-				63322031191113D800A6C302 /* SWRevealViewController.m */,
-			);
-			name = SWRevealViewController;
-			sourceTree = "<group>";
-		};
 		633220481911C7B700A6C302 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,13 +207,9 @@
 		6349520318FDC1FF0054C512 = {
 			isa = PBXGroup;
 			children = (
-				E22B7E6E21C69F88005E2088 /* Shared */,
-				E20CF48321BBF4EC0031A875 /* Resources-iPad */,
-				6332202F191113BA00A6C302 /* SWRevealViewController */,
 				63408EC619048B4300319726 /* Model */,
 				63408EBC1904855B00319726 /* hpple */,
 				6349521518FDC1FF0054C512 /* ISNRVhub */,
-				6349523A18FDC2000054C512 /* ISNRVhubTests */,
 				6349520E18FDC1FF0054C512 /* Frameworks */,
 				6349520D18FDC1FF0054C512 /* Products */,
 			);
@@ -279,7 +219,6 @@
 			isa = PBXGroup;
 			children = (
 				6349520C18FDC1FF0054C512 /* ISNRVhub.app */,
-				6349523318FDC2000054C512 /* ISNRVhubTests.xctest */,
 				E20CF48221BBF4EC0031A875 /* ISNRVhub-iPad.app */,
 			);
 			name = Products;
@@ -307,16 +246,13 @@
 		6349521518FDC1FF0054C512 /* ISNRVhub */ = {
 			isa = PBXGroup;
 			children = (
+				E22B7E7021C69FA7005E2088 /* LaunchScreen.xib */,
 				E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */,
 				E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */,
-				63408ECF19049F4800319726 /* AboutISNRV.h */,
-				63408ED019049F4800319726 /* AboutISNRV.m */,
 				6349521E18FDC2000054C512 /* AppDelegate.h */,
 				6349521F18FDC2000054C512 /* AppDelegate.m */,
 				63408EB61900A6E800319726 /* PrayerTimesTable.h */,
 				63408EB71900A6E800319726 /* PrayerTimesTable.m */,
-				633220331911143100A6C302 /* SidebarViewController.h */,
-				633220341911143100A6C302 /* SidebarViewController.m */,
 				6349522D18FDC2000054C512 /* Images.xcassets */,
 				6349521618FDC1FF0054C512 /* Supporting Files */,
 				63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */,
@@ -338,42 +274,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6349523A18FDC2000054C512 /* ISNRVhubTests */ = {
-			isa = PBXGroup;
-			children = (
-				6349524018FDC2000054C512 /* ISNRVhubTests.m */,
-				6349523B18FDC2000054C512 /* Supporting Files */,
-			);
-			path = ISNRVhubTests;
-			sourceTree = "<group>";
-		};
-		6349523B18FDC2000054C512 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6349523C18FDC2000054C512 /* ISNRVhubTests-Info.plist */,
-				6349523D18FDC2000054C512 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E20CF48321BBF4EC0031A875 /* Resources-iPad */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Resources-iPad";
-			sourceTree = "<group>";
-		};
-		E22B7E6E21C69F88005E2088 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				E22B7E6F21C69FA7005E2088 /* assets */,
-				E22B7E7121C69FA7005E2088 /* Bladefile */,
-				E22B7E7221C69FA7005E2088 /* Images.xcassets */,
-				E22B7E7021C69FA7005E2088 /* LaunchScreen.xib */,
-			);
-			name = Shared;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -393,24 +293,6 @@
 			productName = ISNRVhub;
 			productReference = 6349520C18FDC1FF0054C512 /* ISNRVhub.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6349523218FDC2000054C512 /* ISNRVhubTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6349524718FDC2000054C512 /* Build configuration list for PBXNativeTarget "ISNRVhubTests" */;
-			buildPhases = (
-				6349522F18FDC2000054C512 /* Sources */,
-				6349523018FDC2000054C512 /* Frameworks */,
-				6349523118FDC2000054C512 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6349523918FDC2000054C512 /* PBXTargetDependency */,
-			);
-			name = ISNRVhubTests;
-			productName = ISNRVhubTests;
-			productReference = 6349523318FDC2000054C512 /* ISNRVhubTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E20CF45721BBF4EC0031A875 /* ISNRVhub-iPad */ = {
 			isa = PBXNativeTarget;
@@ -446,9 +328,6 @@
 							};
 						};
 					};
-					6349523218FDC2000054C512 = {
-						TestTargetID = 6349520B18FDC1FF0054C512;
-					};
 					E20CF45721BBF4EC0031A875 = {
 						DevelopmentTeam = 384E4QA5K8;
 					};
@@ -469,7 +348,6 @@
 			targets = (
 				6349520B18FDC1FF0054C512 /* ISNRVhub */,
 				E20CF45721BBF4EC0031A875 /* ISNRVhub-iPad */,
-				6349523218FDC2000054C512 /* ISNRVhubTests */,
 			);
 		};
 /* End PBXProject section */
@@ -480,10 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20CF45621BBF19C0031A875 /* Main_iPad.storyboard in Resources */,
-				E22B7E7921C69FA7005E2088 /* Images.xcassets in Resources */,
 				63C1A0CF1AF655DA005B0A4A /* PrayerTimes.plist in Resources */,
-				E22B7E7721C69FA7005E2088 /* Bladefile in Resources */,
-				E22B7E7321C69FA7005E2088 /* assets in Resources */,
 				633220441911C7A200A6C302 /* news.png in Resources */,
 				633220451911C7A200A6C302 /* photo.png in Resources */,
 				633220421911C7A200A6C302 /* menu.png in Resources */,
@@ -499,14 +374,6 @@
 				E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */,
 				E22B7E7521C69FA7005E2088 /* LaunchScreen.xib in Resources */,
 				6349521A18FDC2000054C512 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6349523118FDC2000054C512 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6349523F18FDC2000054C512 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,18 +412,7 @@
 				63408EC919048BBA00319726 /* ISNRV.m in Sources */,
 				63408EC31904859A00319726 /* TFHpple.m in Sources */,
 				63408EC51904859A00319726 /* XPathQuery.m in Sources */,
-				63322032191113D800A6C302 /* SWRevealViewController.m in Sources */,
-				63408ED119049F4800319726 /* AboutISNRV.m in Sources */,
 				63408EC41904859A00319726 /* TFHppleElement.m in Sources */,
-				633220351911143100A6C302 /* SidebarViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6349522F18FDC2000054C512 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6349524118FDC2000054C512 /* ISNRVhubTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,36 +426,17 @@
 				E20CF45C21BBF4EC0031A875 /* ISNRV.m in Sources */,
 				E20CF45D21BBF4EC0031A875 /* TFHpple.m in Sources */,
 				E20CF45E21BBF4EC0031A875 /* XPathQuery.m in Sources */,
-				E20CF45F21BBF4EC0031A875 /* SWRevealViewController.m in Sources */,
-				E20CF46021BBF4EC0031A875 /* AboutISNRV.m in Sources */,
 				E20CF46121BBF4EC0031A875 /* TFHppleElement.m in Sources */,
-				E20CF46221BBF4EC0031A875 /* SidebarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6349523918FDC2000054C512 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6349520B18FDC1FF0054C512 /* ISNRVhub */;
-			targetProxy = 6349523818FDC2000054C512 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6349521818FDC2000054C512 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6349521918FDC2000054C512 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6349523D18FDC2000054C512 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6349523E18FDC2000054C512 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -758,48 +595,6 @@
 			};
 			name = Release;
 		};
-		6349524818FDC2000054C512 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ISNRVhub.app/ISNRVhub";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ISNRVhub/ISNRVhub-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ISNRVhubTests/ISNRVhubTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.isnrv.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6349524918FDC2000054C512 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ISNRVhub.app/ISNRVhub";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ISNRVhub/ISNRVhub-Prefix.pch";
-				INFOPLIST_FILE = "ISNRVhubTests/ISNRVhubTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.isnrv.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 		E20CF48021BBF4EC0031A875 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -869,15 +664,6 @@
 			buildConfigurations = (
 				6349524518FDC2000054C512 /* Debug */,
 				6349524618FDC2000054C512 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6349524718FDC2000054C512 /* Build configuration list for PBXNativeTarget "ISNRVhubTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6349524818FDC2000054C512 /* Debug */,
-				6349524918FDC2000054C512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
