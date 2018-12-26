@@ -7,20 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		630E3EA619169458001DA1C9 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA219169458001DA1C9 /* greenButton.png */; };
-		630E3EA719169458001DA1C9 /* greenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA319169458001DA1C9 /* greenButton@2x.png */; };
-		630E3EA819169458001DA1C9 /* greenButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA419169458001DA1C9 /* greenButtonHighlight.png */; };
-		630E3EA919169458001DA1C9 /* greenButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA519169458001DA1C9 /* greenButtonHighlight@2x.png */; };
 		633220191908B6F700A6C302 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633220181908B6F700A6C302 /* CFNetwork.framework */; };
 		6332201B1908B74100A6C302 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332201A1908B74100A6C302 /* libicucore.dylib */; };
 		6332201D1908B75A00A6C302 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332201C1908B75A00A6C302 /* libc++.dylib */; };
 		6332201F1908B76300A6C302 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332201E1908B76300A6C302 /* Security.framework */; };
 		633220211908B77700A6C302 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633220201908B77700A6C302 /* SystemConfiguration.framework */; };
 		6332202E1911113200A6C302 /* ISNRVhubIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332202D1911113200A6C302 /* ISNRVhubIcon.png */; };
-		633220421911C7A200A6C302 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 633220391911C7A200A6C302 /* menu.png */; };
-		633220431911C7A200A6C302 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203A1911C7A200A6C302 /* menu@2x.png */; };
-		633220441911C7A200A6C302 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203B1911C7A200A6C302 /* news.png */; };
-		633220451911C7A200A6C302 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203C1911C7A200A6C302 /* photo.png */; };
 		6332204F191319A500A6C302 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332204E191319A500A6C302 /* Accounts.framework */; };
 		63322051191319AC00A6C302 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63322050191319AC00A6C302 /* Social.framework */; };
 		633982AD1915E7400072BB01 /* Masjid Al-Ihsan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 633982AB1915E7400072BB01 /* Masjid Al-Ihsan.jpg */; };
@@ -36,10 +28,10 @@
 		6349521A18FDC2000054C512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6349521818FDC2000054C512 /* InfoPlist.strings */; };
 		6349521C18FDC2000054C512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521B18FDC2000054C512 /* main.m */; };
 		6349522018FDC2000054C512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521F18FDC2000054C512 /* AppDelegate.m */; };
-		6349522E18FDC2000054C512 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349522D18FDC2000054C512 /* Images.xcassets */; };
 		63C1A0CF1AF655DA005B0A4A /* PrayerTimes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */; };
+		9552963C21D401D9008D79BA /* isnrvHub-appStoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9552963B21D401D9008D79BA /* isnrvHub-appStoreIcon.png */; };
+		9552964021D41002008D79BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349522D18FDC2000054C512 /* Images.xcassets */; };
 		E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */; };
-		E20CF45621BBF19C0031A875 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */; };
 		E20CF45921BBF4EC0031A875 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521F18FDC2000054C512 /* AppDelegate.m */; };
 		E20CF45A21BBF4EC0031A875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521B18FDC2000054C512 /* main.m */; };
 		E20CF45B21BBF4EC0031A875 /* PrayerTimesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EB71900A6E800319726 /* PrayerTimesTable.m */; };
@@ -60,38 +52,21 @@
 		E20CF46E21BBF4EC0031A875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349520F18FDC1FF0054C512 /* Foundation.framework */; };
 		E20CF47021BBF4EC0031A875 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */; };
 		E20CF47121BBF4EC0031A875 /* PrayerTimes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */; };
-		E20CF47221BBF4EC0031A875 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203B1911C7A200A6C302 /* news.png */; };
-		E20CF47321BBF4EC0031A875 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203C1911C7A200A6C302 /* photo.png */; };
-		E20CF47421BBF4EC0031A875 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 633220391911C7A200A6C302 /* menu.png */; };
 		E20CF47521BBF4EC0031A875 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349522D18FDC2000054C512 /* Images.xcassets */; };
 		E20CF47621BBF4EC0031A875 /* Masjid Al-Ihsan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 633982AB1915E7400072BB01 /* Masjid Al-Ihsan.jpg */; };
-		E20CF47721BBF4EC0031A875 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA219169458001DA1C9 /* greenButton.png */; };
-		E20CF47821BBF4EC0031A875 /* greenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA319169458001DA1C9 /* greenButton@2x.png */; };
-		E20CF47921BBF4EC0031A875 /* greenButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA419169458001DA1C9 /* greenButtonHighlight.png */; };
-		E20CF47A21BBF4EC0031A875 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203A1911C7A200A6C302 /* menu@2x.png */; };
-		E20CF47B21BBF4EC0031A875 /* greenButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA519169458001DA1C9 /* greenButtonHighlight@2x.png */; };
 		E20CF47C21BBF4EC0031A875 /* ISNRVhubIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332202D1911113200A6C302 /* ISNRVhubIcon.png */; };
-		E20CF47D21BBF4EC0031A875 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */; };
 		E20CF47E21BBF4EC0031A875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6349521818FDC2000054C512 /* InfoPlist.strings */; };
 		E20CF48621BBF9000031A875 /* ISNRVhub-ipad-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */; };
 		E22B7E7521C69FA7005E2088 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22B7E7021C69FA7005E2088 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		630E3EA219169458001DA1C9 /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
-		630E3EA319169458001DA1C9 /* greenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButton@2x.png"; sourceTree = "<group>"; };
-		630E3EA419169458001DA1C9 /* greenButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButtonHighlight.png; sourceTree = "<group>"; };
-		630E3EA519169458001DA1C9 /* greenButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButtonHighlight@2x.png"; sourceTree = "<group>"; };
 		633220181908B6F700A6C302 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		6332201A1908B74100A6C302 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		6332201C1908B75A00A6C302 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		6332201E1908B76300A6C302 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		633220201908B77700A6C302 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6332202D1911113200A6C302 /* ISNRVhubIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ISNRVhubIcon.png; sourceTree = "<group>"; };
-		633220391911C7A200A6C302 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
-		6332203A1911C7A200A6C302 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
-		6332203B1911C7A200A6C302 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
-		6332203C1911C7A200A6C302 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		6332204E191319A500A6C302 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		63322050191319AC00A6C302 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		633982AB1915E7400072BB01 /* Masjid Al-Ihsan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Masjid Al-Ihsan.jpg"; sourceTree = "<group>"; };
@@ -119,6 +94,7 @@
 		6349522D18FDC2000054C512 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6349523418FDC2000054C512 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PrayerTimes.plist; sourceTree = "<group>"; };
+		9552963B21D401D9008D79BA /* isnrvHub-appStoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isnrvHub-appStoreIcon.png"; sourceTree = "<group>"; };
 		E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 		E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		E20CF48221BBF4EC0031A875 /* ISNRVhub-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISNRVhub-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,15 +145,8 @@
 		633220481911C7B700A6C302 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				630E3EA219169458001DA1C9 /* greenButton.png */,
-				630E3EA319169458001DA1C9 /* greenButton@2x.png */,
-				630E3EA419169458001DA1C9 /* greenButtonHighlight.png */,
-				630E3EA519169458001DA1C9 /* greenButtonHighlight@2x.png */,
+				9552963B21D401D9008D79BA /* isnrvHub-appStoreIcon.png */,
 				633982AB1915E7400072BB01 /* Masjid Al-Ihsan.jpg */,
-				633220391911C7A200A6C302 /* menu.png */,
-				6332203A1911C7A200A6C302 /* menu@2x.png */,
-				6332203B1911C7A200A6C302 /* news.png */,
-				6332203C1911C7A200A6C302 /* photo.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -357,22 +326,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20CF45621BBF19C0031A875 /* Main_iPad.storyboard in Resources */,
+				9552964021D41002008D79BA /* Images.xcassets in Resources */,
 				63C1A0CF1AF655DA005B0A4A /* PrayerTimes.plist in Resources */,
-				633220441911C7A200A6C302 /* news.png in Resources */,
-				633220451911C7A200A6C302 /* photo.png in Resources */,
-				633220421911C7A200A6C302 /* menu.png in Resources */,
-				6349522E18FDC2000054C512 /* Images.xcassets in Resources */,
 				633982AD1915E7400072BB01 /* Masjid Al-Ihsan.jpg in Resources */,
 				E20CF48621BBF9000031A875 /* ISNRVhub-ipad-Info.plist in Resources */,
-				630E3EA619169458001DA1C9 /* greenButton.png in Resources */,
-				630E3EA719169458001DA1C9 /* greenButton@2x.png in Resources */,
-				630E3EA819169458001DA1C9 /* greenButtonHighlight.png in Resources */,
-				633220431911C7A200A6C302 /* menu@2x.png in Resources */,
-				630E3EA919169458001DA1C9 /* greenButtonHighlight@2x.png in Resources */,
 				6332202E1911113200A6C302 /* ISNRVhubIcon.png in Resources */,
 				E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */,
 				E22B7E7521C69FA7005E2088 /* LaunchScreen.xib in Resources */,
+				9552963C21D401D9008D79BA /* isnrvHub-appStoreIcon.png in Resources */,
 				6349521A18FDC2000054C512 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,18 +344,9 @@
 			files = (
 				E20CF47021BBF4EC0031A875 /* Main_iPad.storyboard in Resources */,
 				E20CF47121BBF4EC0031A875 /* PrayerTimes.plist in Resources */,
-				E20CF47221BBF4EC0031A875 /* news.png in Resources */,
-				E20CF47321BBF4EC0031A875 /* photo.png in Resources */,
-				E20CF47421BBF4EC0031A875 /* menu.png in Resources */,
 				E20CF47521BBF4EC0031A875 /* Images.xcassets in Resources */,
 				E20CF47621BBF4EC0031A875 /* Masjid Al-Ihsan.jpg in Resources */,
-				E20CF47721BBF4EC0031A875 /* greenButton.png in Resources */,
-				E20CF47821BBF4EC0031A875 /* greenButton@2x.png in Resources */,
-				E20CF47921BBF4EC0031A875 /* greenButtonHighlight.png in Resources */,
-				E20CF47A21BBF4EC0031A875 /* menu@2x.png in Resources */,
-				E20CF47B21BBF4EC0031A875 /* greenButtonHighlight@2x.png in Resources */,
 				E20CF47C21BBF4EC0031A875 /* ISNRVhubIcon.png in Resources */,
-				E20CF47D21BBF4EC0031A875 /* Main_iPhone.storyboard in Resources */,
 				E20CF47E21BBF4EC0031A875 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,6 +504,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 384E4QA5K8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -577,6 +530,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 384E4QA5K8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

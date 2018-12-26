@@ -165,7 +165,7 @@
     
     NSURL *isnrvUrl = [NSURL URLWithString:@"http://www.isnrv.org/prayerCalendar.php"];
     NSData *isnrvHtmlData = [NSData dataWithContentsOfURL:isnrvUrl options:NSDataReadingUncached error:&error];
-    NSString *errorMsg = [error localizedDescription];
+    //NSString *errorMsg = [error localizedDescription];
     if (error) {
         //NSLog(@"error code: %ld", (long)[error code]);
         //NSLog(@"error in loading data: %@", errorMsg);

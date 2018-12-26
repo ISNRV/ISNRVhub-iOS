@@ -15,21 +15,23 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="0ia-61-qSP">
-                    <rect key="frame" x="69.666666666666686" y="69.666666666666686" width="341" height="341"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="isnrvHub-appStoreIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="0ia-61-qSP">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="0ia-61-qSP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="CWF-TQ-nYT"/>
-                <constraint firstItem="0ia-61-qSP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="rb3-GK-Eaf"/>
+                <constraint firstItem="0ia-61-qSP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bNR-TQ-JYu"/>
+                <constraint firstAttribute="bottom" secondItem="0ia-61-qSP" secondAttribute="bottom" id="gzb-6k-38w"/>
+                <constraint firstItem="0ia-61-qSP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hUJ-l4-hl3"/>
+                <constraint firstAttribute="trailing" secondItem="0ia-61-qSP" secondAttribute="trailing" id="u19-G1-nLR"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="404" y="445"/>
+            <point key="canvasLocation" x="402.89855072463769" y="444.64285714285711"/>
         </view>
     </objects>
     <resources>
-        <image name="Logo" width="341.33334350585938" height="341.33334350585938"/>
+        <image name="isnrvHub-appStoreIcon.png" width="1024" height="1024"/>
     </resources>
 </document>
