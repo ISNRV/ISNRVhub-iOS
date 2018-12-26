@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SsR-n4-iAl">
-    <device id="ipad12_9rounded" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="SsR-n4-iAl">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,7 +14,7 @@
             <objects>
                 <tableViewController title="DAILY PRAYERS" id="SsR-n4-iAl" customClass="PrayerTimesTable" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleAspectFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" allowsSelection="NO" rowHeight="60" sectionHeaderHeight="10" sectionFooterHeight="10" id="SwJ-Xw-B8o">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="separatorColor" red="0.69437579719387754" green="0.0" blue="0.3544788269324104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -26,10 +26,10 @@
                             <tableViewSection headerTitle="Daily Prayers" footerTitle="" id="3ff-8p-l0u">
                                 <cells>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" id="t5V-Xm-oSz">
-                                        <rect key="frame" x="0.0" y="55.5" width="1024" height="60"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="t5V-Xm-oSz" id="hJS-Ne-7nn">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adhan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFG-kz-uu1">
@@ -50,10 +50,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="center" selectionStyle="blue" indentationWidth="10" id="pp0-1J-Deo">
-                                        <rect key="frame" x="0.0" y="115.5" width="1024" height="60"/>
+                                        <rect key="frame" x="0.0" y="115.5" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="pp0-1J-Deo" id="bzf-uy-FO0">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fajr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1a-3V-qqI">
@@ -85,10 +85,10 @@
                                         <inset key="separatorInset" minX="7" minY="0.0" maxX="7" maxY="0.0"/>
                                     </tableViewCell>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="bDm-2a-prf">
-                                        <rect key="frame" x="0.0" y="175.5" width="1024" height="60"/>
+                                        <rect key="frame" x="0.0" y="175.5" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="bDm-2a-prf" id="AyQ-RM-A6m">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duhr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="du5-DH-p2S">
@@ -118,10 +118,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="xmI-JE-FHc">
-                                        <rect key="frame" x="0.0" y="235.5" width="1024" height="60"/>
+                                        <rect key="frame" x="0.0" y="235.5" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="xmI-JE-FHc" id="C2i-ia-kYN">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Asr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMm-ay-8bB">
@@ -151,10 +151,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ovf-du-3aS">
-                                        <rect key="frame" x="0.0" y="295.5" width="1024" height="60"/>
+                                        <rect key="frame" x="0.0" y="295.5" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="ovf-du-3aS" id="nYZ-Tf-Z2L">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Maghrib" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8iV-Us-8qw">
@@ -184,10 +184,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="abs-Xe-cWw">
-                                        <rect key="frame" x="0.0" y="355.5" width="1024" height="60"/>
+                                        <rect key="frame" x="0.0" y="355.5" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="abs-Xe-cWw" id="oXH-eb-U0E">
-                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Isha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2g2-X9-5r0">
@@ -220,7 +220,7 @@
                             </tableViewSection>
                         </sections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Prayer Times" image="first" id="th3-FX-6tI" userLabel="Tab Bar Item - First"/>
+                    <tabBarItem key="tabBarItem" title="Prayer Times" id="th3-FX-6tI" userLabel="Tab Bar Item - First"/>
                     <connections>
                         <outlet property="adhanAsr" destination="BfT-e9-QdV" id="bsf-BE-pHA"/>
                         <outlet property="adhanDuhr" destination="6dt-ZF-cYE" id="AZr-4r-w7p"/>
@@ -236,10 +236,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ny0-UH-MKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-105" y="-600"/>
+            <point key="canvasLocation" x="-179.20000000000002" y="-1366"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="first" width="23" height="26"/>
-    </resources>
 </document>

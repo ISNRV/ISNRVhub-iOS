@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PrayerTimesTable : UITableViewController <UITableViewDataSource, UITableViewDelegate>
+@interface PrayerTimesTable : UITableViewController <UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *adhanFajr;
 @property (weak, nonatomic) IBOutlet UILabel *iqamaFajr;
