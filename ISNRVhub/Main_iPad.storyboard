@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="MIj-jY-ECc">
     <device id="ipad12_9rounded" orientation="portrait">
-        <adaptation id="splitview2_3"/>
+        <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -14,7 +14,7 @@
             <objects>
                 <tableViewController id="MIj-jY-ECc" customClass="PrayerTimesTable" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleAspectFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" allowsSelection="NO" rowHeight="151" sectionHeaderHeight="20" sectionFooterHeight="20" id="wiZ-CB-eLo">
-                        <rect key="frame" x="0.0" y="0.0" width="694" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <color key="separatorColor" red="0.69437579719999998" green="0.0" blue="0.35447882689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -26,10 +26,10 @@
                             <tableViewSection headerTitle="Daily Prayers" footerTitle="" id="8uG-43-WoL">
                                 <cells>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" id="p50-pu-WfO">
-                                        <rect key="frame" x="0.0" y="55.5" width="694" height="151"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="1024" height="151"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="p50-pu-WfO" id="VLB-cW-q3f">
-                                            <rect key="frame" x="0.0" y="0.0" width="694" height="150.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="150.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adhan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2o-SK-WkU">
@@ -50,10 +50,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="center" selectionStyle="blue" indentationWidth="10" id="7D7-24-A4T">
-                                        <rect key="frame" x="0.0" y="206.5" width="694" height="151"/>
+                                        <rect key="frame" x="0.0" y="206.5" width="1024" height="151"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="7D7-24-A4T" id="Zxp-Vu-Mv4">
-                                            <rect key="frame" x="0.0" y="0.0" width="694" height="150.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="150.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fajr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhA-AM-qCw">
@@ -85,10 +85,10 @@
                                         <inset key="separatorInset" minX="7" minY="0.0" maxX="7" maxY="0.0"/>
                                     </tableViewCell>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="LCI-29-jo1">
-                                        <rect key="frame" x="0.0" y="357.5" width="694" height="151"/>
+                                        <rect key="frame" x="0.0" y="357.5" width="1024" height="151"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="LCI-29-jo1" id="wxm-Mv-hiB">
-                                            <rect key="frame" x="0.0" y="0.0" width="694" height="150.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="150.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duhr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVs-Mo-hkv">
@@ -118,10 +118,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="j6v-ox-Ebq">
-                                        <rect key="frame" x="0.0" y="508.5" width="694" height="151"/>
+                                        <rect key="frame" x="0.0" y="508.5" width="1024" height="151"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="j6v-ox-Ebq" id="Hg4-T0-KBd">
-                                            <rect key="frame" x="0.0" y="0.0" width="694" height="150.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="150.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Asr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lM4-L4-tHL">
@@ -151,10 +151,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="fXF-an-0m2">
-                                        <rect key="frame" x="0.0" y="659.5" width="694" height="151"/>
+                                        <rect key="frame" x="0.0" y="659.5" width="1024" height="151"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="fXF-an-0m2" id="y3u-YE-CcH">
-                                            <rect key="frame" x="0.0" y="0.0" width="694" height="150.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="150.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Maghrib" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yS-c8-FmI">
@@ -184,10 +184,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="7GQ-sN-aLU">
-                                        <rect key="frame" x="0.0" y="810.5" width="694" height="151"/>
+                                        <rect key="frame" x="0.0" y="810.5" width="1024" height="151"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" tableViewCell="7GQ-sN-aLU" id="7Bk-FN-6QA">
-                                            <rect key="frame" x="0.0" y="0.0" width="694" height="150.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="150.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Isha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NfL-gL-bDR">

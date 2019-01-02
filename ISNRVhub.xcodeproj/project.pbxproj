@@ -31,6 +31,7 @@
 		63C1A0CF1AF655DA005B0A4A /* PrayerTimes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */; };
 		9552963C21D401D9008D79BA /* isnrvHub-appStoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9552963B21D401D9008D79BA /* isnrvHub-appStoreIcon.png */; };
 		9552964021D41002008D79BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349522D18FDC2000054C512 /* Images.xcassets */; };
+		957D2B4F21DD867300F55C39 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */; };
 		E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */; };
 		E20CF45921BBF4EC0031A875 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521F18FDC2000054C512 /* AppDelegate.m */; };
 		E20CF45A21BBF4EC0031A875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521B18FDC2000054C512 /* main.m */; };
@@ -331,6 +332,7 @@
 				633982AD1915E7400072BB01 /* Masjid Al-Ihsan.jpg in Resources */,
 				E20CF48621BBF9000031A875 /* ISNRVhub-ipad-Info.plist in Resources */,
 				6332202E1911113200A6C302 /* ISNRVhubIcon.png in Resources */,
+				957D2B4F21DD867300F55C39 /* Main_iPad.storyboard in Resources */,
 				E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */,
 				E22B7E7521C69FA7005E2088 /* LaunchScreen.xib in Resources */,
 				9552963C21D401D9008D79BA /* isnrvHub-appStoreIcon.png in Resources */,
