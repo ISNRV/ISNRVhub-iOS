@@ -4,19 +4,19 @@
 <dict>
 	<key>Adhan</key>
 	<array>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
+		<string>00:00</string>
+		<string>00:00</string>
+		<string>00:00</string>
+		<string>00:00</string>
+		<string>00:00</string>
 	</array>
 	<key>Iqama</key>
 	<array>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
-		<string></string>
+		<string>00:00</string>
+		<string>00:00</string>
+		<string>00:00</string>
+		<string>00:00</string>
+		<string>00:00</string>
 	</array>
 </dict>
 </plist>
